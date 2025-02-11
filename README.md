@@ -49,7 +49,7 @@ argocd repo add https://github.com/username/simple-app.git   --username <your-us
 Jalankan perintah berikut untuk deploy aplikasi:  
 
 ```sh
-kubectl apply -f s/argocd-app.yaml
+kubectl apply -f argocd-config/argocd-app.yaml
 ```
 
 Cek status aplikasi:  
